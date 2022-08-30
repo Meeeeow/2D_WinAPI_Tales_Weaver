@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00. MainGame">
+      <UniqueIdentifier>{fbfac2e1-57a3-42e7-9454-9acc063b396a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object">
+      <UniqueIdentifier>{6330f197-6891-4cfa-9f33-0c4ccb32fb62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Bitmap">
+      <UniqueIdentifier>{2f037f85-0c6c-4f0b-9242-39b8ac6c29a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager">
+      <UniqueIdentifier>{3574e803-7b64-4c6e-8c5b-a8ee10e43696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Default">
+      <UniqueIdentifier>{1578741c-7ff0-4101-8e95-b2853a0af5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\00. ObjectMgr">
+      <UniqueIdentifier>{6253618e-5126-44e4-8537-a6cf2b7b907e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player">
+      <UniqueIdentifier>{8f198c88-7603-4ea9-b134-631131f105f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\01. BmpMgr">
+      <UniqueIdentifier>{745c26f1-d4f0-4bf3-9a86-923d582e51ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\02. ScrollMgr">
+      <UniqueIdentifier>{fbf00310-88af-4c47-ad67-797f74c45a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\03. KeyMgr">
+      <UniqueIdentifier>{bf9eb27f-acca-44ac-a12c-a2e095916dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\04. SceneMgr">
+      <UniqueIdentifier>{5b839d4f-028c-4e61-9811-2aa1d8ce83f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene">
+      <UniqueIdentifier>{307690a7-e7f4-4752-8692-c482f4eafd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene\00. Logo">
+      <UniqueIdentifier>{3157c6a6-3ede-4d80-9c3f-dc8c5c6434a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene\01. Menu">
+      <UniqueIdentifier>{378c3cf6-b79b-4fef-b91f-115762472c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene\02. Stage">
+      <UniqueIdentifier>{5367d012-7c2a-4a21-8e9b-9cd7dbe9b1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Tile">
+      <UniqueIdentifier>{00f51430-ce8d-403c-9f92-2efe1f5ff0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\05. TileMgr">
+      <UniqueIdentifier>{b4d85e38-adb4-43a0-9032-e971549a35cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Button">
+      <UniqueIdentifier>{99b62463-ac52-41d9-a66d-9d0f1fe6724d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene\99. TileEdit">
+      <UniqueIdentifier>{b4c1def7-ca0a-4a7d-bc00-99c976be8d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Monster">
+      <UniqueIdentifier>{0fef41ab-4ce3-420d-9d69-ac516f306cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Mouse">
+      <UniqueIdentifier>{55b0c52b-8528-4e17-b711-162fd368b277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\06. MouseMgr">
+      <UniqueIdentifier>{1034ab4d-c7a3-49b7-a5ae-9815f9c8e67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07. WarpGate">
+      <UniqueIdentifier>{981f9986-3c47-4206-8cef-851fe9ac351d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene\02. Stage\00. Stage">
+      <UniqueIdentifier>{b394a6ef-ed4f-4508-8f92-24d28142c137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene\02. Stage\01. Shop">
+      <UniqueIdentifier>{aa43a5f8-ace8-456d-b716-606e406f0ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene\02. Stage\02. Field">
+      <UniqueIdentifier>{7947cee5-ba81-4542-9adc-fd049bb9e3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\07. WarpGateMgr">
+      <UniqueIdentifier>{76d95c26-3085-4393-b307-b02d68fff2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\99. SoundMgr">
+      <UniqueIdentifier>{d4d57e90-77e6-426a-935d-8cf42822ee9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08. UserInterface">
+      <UniqueIdentifier>{f933d389-4047-46e4-bce2-aeef1cd504ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Monster\00. JellyBee">
+      <UniqueIdentifier>{9589f795-82f5-4b4f-b5cc-2a89a7206640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\09. EffectMgr">
+      <UniqueIdentifier>{62dab36a-f2a2-4be7-b551-87276255b502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. Effect">
+      <UniqueIdentifier>{820632aa-c21e-43b0-9ba2-d2f4629d32c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. Effect\00. Hit">
+      <UniqueIdentifier>{4556d5e3-33dd-4084-9d24-0b6a7ef55baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. Effect\01. Spin">
+      <UniqueIdentifier>{dff7fd63-d6f2-417f-81d8-efcb41961f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. Effect\02. FireBall">
+      <UniqueIdentifier>{1df13cde-e0ef-4471-81aa-72fc230101eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. Effect\03. Explosion">
+      <UniqueIdentifier>{f0bd815c-22f0-450f-9a7b-c91645197ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\08. InterfaceMgr">
+      <UniqueIdentifier>{e3fcc315-b4a0-4fb0-a295-190d6e327167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08. UserInterface\00. PlayerState">
+      <UniqueIdentifier>{0c4efef5-be29-44d3-b6b9-c5de5e2b3748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08. UserInterface\01. PlayerQuickSlot">
+      <UniqueIdentifier>{f3fad804-56d1-41db-a270-76d08aaa2e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08. UserInterface\02. MonsterLifeBar">
+      <UniqueIdentifier>{f3bd9988-272a-499b-a077-d262090be217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Monster\01. Gargoyle">
+      <UniqueIdentifier>{a69ddc9b-8939-490b-8b24-174c83cf70ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. Effect\04. PlayerDMG">
+      <UniqueIdentifier>{27505a21-b40d-495d-ae51-726c4f41902e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. Effect\05. MonsterDMG">
+      <UniqueIdentifier>{896fe072-b4ca-418b-94f3-b9ba11f6a5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. Effect\06. MagicDMG">
+      <UniqueIdentifier>{7030de84-7cdb-423e-b236-994b471c21d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene\02. Stage\03. Field2">
+      <UniqueIdentifier>{285fb042-789e-403b-ab5d-2efd6bfb77b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene\02. Stage\04. BossRoom">
+      <UniqueIdentifier>{4c6c8caa-72d3-4327-8ece-1c23a7218707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Monster\02. Boss_Normal">
+      <UniqueIdentifier>{06060533-de72-4b5f-8b02-b2dddd2fe17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10. DropItem">
+      <UniqueIdentifier>{85c0b2cc-72e6-45ce-a67d-0384f73add33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10. DropItem\00. SilverBar">
+      <UniqueIdentifier>{c32f3238-3555-47b6-87ca-6535c7610556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\10. ItemMgr">
+      <UniqueIdentifier>{8ab777f6-00d9-43b0-a1c8-0fa4ce238c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\10. ItemMgr\00. DropItemMgr">
+      <UniqueIdentifier>{dd68604d-2d23-4f53-9e67-413eb968ea5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08. UserInterface\03. PlayerIdentity">
+      <UniqueIdentifier>{3c6bc139-a2e1-462c-a2de-684a5634b821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\10. ItemMgr\01. InventoryMgr">
+      <UniqueIdentifier>{a20897aa-5657-4c79-b0cd-3be554688b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08. UserInterface\04. PlayerInventory">
+      <UniqueIdentifier>{6244736b-310a-4af1-b72b-1985240da0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10. DropItem\01. SilverSword">
+      <UniqueIdentifier>{d44be3aa-0640-4a9c-989f-225fe8ad6645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. NPC">
+      <UniqueIdentifier>{3fa3a2de-baa0-4bdc-b374-90f9860da7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. NPC\00. Happy">
+      <UniqueIdentifier>{183c4f14-f7a8-4b0f-b6a7-75101701c7de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Manager\10. ItemMgr\02. EquipMgr">
+      <UniqueIdentifier>{acabf5e4-885e-4469-9f00-6a6bf0361950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08. UserInterface\05. PlayerEquip">
+      <UniqueIdentifier>{baefaa11-05be-4c09-b8ca-fb55327bdd8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10. DropItem\02. Potion">
+      <UniqueIdentifier>{f7be2902-1078-4bfe-ac41-e79bf90b57fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10. DropItem\03. Leather">
+      <UniqueIdentifier>{115c59d4-ed2b-494a-bf03-aaaae74622b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10. DropItem\04. DefaultArmor">
+      <UniqueIdentifier>{ed6dd659-9727-4ada-9e81-e0142360fe82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10. DropItem\05. SilverArmor">
+      <UniqueIdentifier>{921a191b-0746-4193-9adf-3efdbd2f9cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Monster\03. BlueWolf">
+      <UniqueIdentifier>{aa681c1b-02b7-41fe-b168-b738db0b4a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene\03. YouDied">
+      <UniqueIdentifier>{c9c420db-a3c4-499f-91d4-82e5d481af55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. Effect\07. PlayerLevelUp">
+      <UniqueIdentifier>{222fa4f4-77a9-4244-8aae-0bacdb122410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scene\02. Stage\05. BossHard">
+      <UniqueIdentifier>{c6700f15-e805-4523-b07f-52ebb33ddabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Monster\04. Boss_Hard">
+      <UniqueIdentifier>{c861f4a7-c453-4b30-b11d-73a4880753af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. Effect\08. BossFire">
+      <UniqueIdentifier>{aa4ed057-a892-4db0-b0d0-54bbd4ee4c44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="API_TalesWeaver.h">
+      <Filter>소스 파일\99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\01. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBitMap.h">
+      <Filter>소스 파일\02. Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>소스 파일\98. Manager\00. ObjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\01. Object\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>소스 파일\98. Manager\01. BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>소스 파일\98. Manager\02. ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>소스 파일\98. Manager\03. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>소스 파일\03. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>소스 파일\03. Scene\01. Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>소스 파일\98. Manager\04. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>소스 파일\98. Manager\05. TileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>소스 파일\04. Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="TileEdit.h">
+      <Filter>소스 파일\03. Scene\99. TileEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="BALButton.h">
+      <Filter>소스 파일\05. Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>소스 파일\06. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMgr.h">
+      <Filter>소스 파일\98. Manager\06. MouseMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>소스 파일\98. Manager\99. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="WarpGate.h">
+      <Filter>소스 파일\07. WarpGate</Filter>
+    </ClInclude>
+    <ClInclude Include="WarpGateMgr.h">
+      <Filter>소스 파일\98. Manager\07. WarpGateMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>소스 파일\03. Scene\02. Stage\00. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageShop.h">
+      <Filter>소스 파일\03. Scene\02. Stage\01. Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>소스 파일\03. Scene\02. Stage\02. Field</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>소스 파일\08. UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyBee.h">
+      <Filter>소스 파일\01. Object\01. Monster\00. JellyBee</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMgr.h">
+      <Filter>소스 파일\98. Manager\09. EffectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>소스 파일\09. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Hit.h">
+      <Filter>소스 파일\09. Effect\00. Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Spin.h">
+      <Filter>소스 파일\09. Effect\01. Spin</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>소스 파일\09. Effect\02. FireBall</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>소스 파일\09. Effect\03. Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceMgr.h">
+      <Filter>소스 파일\98. Manager\08. InterfaceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>소스 파일\08. UserInterface\00. PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerQuickSlot.h">
+      <Filter>소스 파일\08. UserInterface\01. PlayerQuickSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterLifeBar.h">
+      <Filter>소스 파일\08. UserInterface\02. MonsterLifeBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Gargoyle.h">
+      <Filter>소스 파일\01. Object\01. Monster\01. Gargoyle</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDMG.h">
+      <Filter>소스 파일\09. Effect\04. PlayerDMG</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterDMG.h">
+      <Filter>소스 파일\09. Effect\05. MonsterDMG</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicDMG.h">
+      <Filter>소스 파일\09. Effect\06. MagicDMG</Filter>
+    </ClInclude>
+    <ClInclude Include="Field2.h">
+      <Filter>소스 파일\03. Scene\02. Stage\03. Field2</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom.h">
+      <Filter>소스 파일\03. Scene\02. Stage\04. BossRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Normal.h">
+      <Filter>소스 파일\01. Object\01. Monster\02. Boss_Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="DropItem.h">
+      <Filter>소스 파일\10. DropItem</Filter>
+    </ClInclude>
+    <ClInclude Include="SilverBar.h">
+      <Filter>소스 파일\10. DropItem\00. SilverBar</Filter>
+    </ClInclude>
+    <ClInclude Include="DropItemMgr.h">
+      <Filter>소스 파일\98. Manager\10. ItemMgr\00. DropItemMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIdentity.h">
+      <Filter>소스 파일\08. UserInterface\03. PlayerIdentity</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryMgr.h">
+      <Filter>소스 파일\98. Manager\10. ItemMgr\01. InventoryMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInventory.h">
+      <Filter>소스 파일\08. UserInterface\04. PlayerInventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Happy.h">
+      <Filter>소스 파일\01. Object\02. NPC\00. Happy</Filter>
+    </ClInclude>
+    <ClInclude Include="SilverSword.h">
+      <Filter>소스 파일\10. DropItem\01. SilverSword</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipMgr.h">
+      <Filter>소스 파일\98. Manager\10. ItemMgr\02. EquipMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEquip.h">
+      <Filter>소스 파일\08. UserInterface\05. PlayerEquip</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>소스 파일\10. DropItem\02. Potion</Filter>
+    </ClInclude>
+    <ClInclude Include="Leather.h">
+      <Filter>소스 파일\10. DropItem\03. Leather</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultArmor.h">
+      <Filter>소스 파일\10. DropItem\04. DefaultArmor</Filter>
+    </ClInclude>
+    <ClInclude Include="SilverArmor.h">
+      <Filter>소스 파일\10. DropItem\05. SilverArmor</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueWolf.h">
+      <Filter>소스 파일\01. Object\01. Monster\03. BlueWolf</Filter>
+    </ClInclude>
+    <ClInclude Include="YouDied.h">
+      <Filter>소스 파일\03. Scene\03. YouDied</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLevelUp.h">
+      <Filter>소스 파일\09. Effect\07. PlayerLevelUp</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHard.h">
+      <Filter>소스 파일\03. Scene\02. Stage\05. BossHard</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Hard.h">
+      <Filter>소스 파일\01. Object\01. Monster\04. Boss_Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFire.h">
+      <Filter>소스 파일\09. Effect\08. BossFire</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="API_TalesWeaver.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\01. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBitMap.cpp">
+      <Filter>소스 파일\02. Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>소스 파일\98. Manager\00. ObjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\01. Object\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>소스 파일\98. Manager\01. BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>소스 파일\98. Manager\02. ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>소스 파일\98. Manager\03. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>소스 파일\03. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>소스 파일\03. Scene\01. Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>소스 파일\98. Manager\04. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>소스 파일\98. Manager\05. TileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>소스 파일\04. Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="TileEdit.cpp">
+      <Filter>소스 파일\03. Scene\99. TileEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="BALButton.cpp">
+      <Filter>소스 파일\05. Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>소스 파일\06. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMgr.cpp">
+      <Filter>소스 파일\98. Manager\06. MouseMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>소스 파일\98. Manager\99. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="WarpGate.cpp">
+      <Filter>소스 파일\07. WarpGate</Filter>
+    </ClCompile>
+    <ClCompile Include="WarpGateMgr.cpp">
+      <Filter>소스 파일\98. Manager\07. WarpGateMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\03. Scene\02. Stage\00. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageShop.cpp">
+      <Filter>소스 파일\03. Scene\02. Stage\01. Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>소스 파일\03. Scene\02. Stage\02. Field</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>소스 파일\08. UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyBee.cpp">
+      <Filter>소스 파일\01. Object\01. Monster\00. JellyBee</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMgr.cpp">
+      <Filter>소스 파일\98. Manager\09. EffectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>소스 파일\09. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Hit.cpp">
+      <Filter>소스 파일\09. Effect\00. Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="Spin.cpp">
+      <Filter>소스 파일\09. Effect\01. Spin</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.cpp">
+      <Filter>소스 파일\09. Effect\02. FireBall</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>소스 파일\09. Effect\03. Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceMgr.cpp">
+      <Filter>소스 파일\98. Manager\08. InterfaceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>소스 파일\08. UserInterface\00. PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerQuickSlot.cpp">
+      <Filter>소스 파일\08. UserInterface\01. PlayerQuickSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterLifeBar.cpp">
+      <Filter>소스 파일\08. UserInterface\02. MonsterLifeBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Gargoyle.cpp">
+      <Filter>소스 파일\01. Object\01. Monster\01. Gargoyle</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDMG.cpp">
+      <Filter>소스 파일\09. Effect\04. PlayerDMG</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterDMG.cpp">
+      <Filter>소스 파일\09. Effect\05. MonsterDMG</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicDMG.cpp">
+      <Filter>소스 파일\09. Effect\06. MagicDMG</Filter>
+    </ClCompile>
+    <ClCompile Include="Field2.cpp">
+      <Filter>소스 파일\03. Scene\02. Stage\03. Field2</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom.cpp">
+      <Filter>소스 파일\03. Scene\02. Stage\04. BossRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Normal.cpp">
+      <Filter>소스 파일\01. Object\01. Monster\02. Boss_Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="DropItem.cpp">
+      <Filter>소스 파일\10. DropItem</Filter>
+    </ClCompile>
+    <ClCompile Include="SilverBar.cpp">
+      <Filter>소스 파일\10. DropItem\00. SilverBar</Filter>
+    </ClCompile>
+    <ClCompile Include="DropItemMgr.cpp">
+      <Filter>소스 파일\98. Manager\10. ItemMgr\00. DropItemMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIdentity.cpp">
+      <Filter>소스 파일\08. UserInterface\03. PlayerIdentity</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryMgr.cpp">
+      <Filter>소스 파일\98. Manager\10. ItemMgr\01. InventoryMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInventory.cpp">
+      <Filter>소스 파일\08. UserInterface\04. PlayerInventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Happy.cpp">
+      <Filter>소스 파일\01. Object\02. NPC\00. Happy</Filter>
+    </ClCompile>
+    <ClCompile Include="SilverSword.cpp">
+      <Filter>소스 파일\10. DropItem\01. SilverSword</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipMgr.cpp">
+      <Filter>소스 파일\98. Manager\10. ItemMgr\02. EquipMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEquip.cpp">
+      <Filter>소스 파일\08. UserInterface\05. PlayerEquip</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>소스 파일\10. DropItem\02. Potion</Filter>
+    </ClCompile>
+    <ClCompile Include="Leather.cpp">
+      <Filter>소스 파일\10. DropItem\03. Leather</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultArmor.cpp">
+      <Filter>소스 파일\10. DropItem\04. DefaultArmor</Filter>
+    </ClCompile>
+    <ClCompile Include="SilverArmor.cpp">
+      <Filter>소스 파일\10. DropItem\05. SilverArmor</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueWolf.cpp">
+      <Filter>소스 파일\01. Object\01. Monster\03. BlueWolf</Filter>
+    </ClCompile>
+    <ClCompile Include="YouDied.cpp">
+      <Filter>소스 파일\03. Scene\03. YouDied</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLevelUp.cpp">
+      <Filter>소스 파일\09. Effect\07. PlayerLevelUp</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHard.cpp">
+      <Filter>소스 파일\03. Scene\02. Stage\05. BossHard</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Hard.cpp">
+      <Filter>소스 파일\01. Object\01. Monster\04. Boss_Hard</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFire.cpp">
+      <Filter>소스 파일\09. Effect\08. BossFire</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="API_TalesWeaver.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="API_TalesWeaver.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>소스 파일\99. Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

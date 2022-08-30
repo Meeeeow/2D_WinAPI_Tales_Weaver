@@ -1,0 +1,41 @@
+#pragma once
+#ifndef __ENUM_H__
+#define __ENUM_H__
+
+namespace OBJID
+{
+	enum ID { PLAYER,NPC, MONSTER, MONSTER2, BOSS,BOSS_HARD, END };
+}
+namespace STAGEID
+{
+	enum ID {TOWN,SHOP,FIELD,FIELD2,BOSS,BOSS_HARD,END};
+}
+namespace SCENEID
+{
+	enum ID { LOGO, MENU, STAGE, SHOP, FIELD, FIELD2,BOSS,BOSS_HARD, YOUDIED,EDIT, END };
+}
+namespace RENDERID
+{
+	enum ID { OBJECT, UI, END };
+}
+namespace INTERFACEID
+{
+	enum ID { STATE, QUICKSLOT, IDENTITIY, INVENTORY, EQUIPMENT, END };
+}
+namespace EFFECTID
+{
+	enum ID { HIT,SPIN,FIREBALL,EXPLOSION,PLAYERDMG,MONSTERDMG,MAGICDMG,LEVELUP,BOSSFIRE,END};
+}
+namespace DROPID
+{
+	enum ID { FIELD,FIELD2,BOSS_ROOM,END};
+}
+namespace INVENID
+{
+	enum ID {SILVER,END};
+}
+namespace EQUIPID
+{
+	enum ID{HEAD,ARMOR,SWORD,HAND,SHOES,END};
+}
+#endif // !__ENUM_H__
